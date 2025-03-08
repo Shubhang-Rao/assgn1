@@ -1,0 +1,15 @@
+{
+  "name": "assgn1",
+  "version": "1.0.0",
+  "description": "\"Assignment1\"",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shubhang Rao",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
