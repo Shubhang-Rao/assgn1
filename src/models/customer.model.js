@@ -10,15 +10,19 @@ const customerSchema = new mongoose.Schema({
         type: String,
         required: true
     },
-    usernmae :{
-        type : mongoose.Schema.Types.ObjectId,
-        ref : "User"
+    usernmae: {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: "User"
     },
     address: {
         type: String,
         required: true
     }
     ,
+    email: {
+        type : mongoose.Schema.Types.ObjectId,
+        ref : "User"
+    },
     contact_no: {
         type: String,
         required: true
